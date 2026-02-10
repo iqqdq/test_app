@@ -6,6 +6,6 @@
 
 ### Requirements
 
-- Flutter 3.35.5
+- Flutter 3.38.3
 - Xcode 16.4
 - CocoaPods 1.16.2
