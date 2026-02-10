@@ -2,7 +2,7 @@
 
 ## Install
 
-- Перед запуском выполнить команду в терминале " flutter pub run build_runner build"
+- Перед запуском выполнить команду в терминале "dart pub run build_runner build"
 
 ### Requirements
 
