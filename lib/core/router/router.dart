@@ -12,8 +12,8 @@ class AppRouter extends RootStackRouter {
       path: '/',
       page: TabBarRoute.page,
       children: [
-        AutoRoute(path: 'counter', page: CounterRoute.page, initial: true),
-        AutoRoute(path: 'logo', page: LogoRoute.page),
+        AutoRoute(path: 'logo', page: LogoRoute.page, initial: true),
+        AutoRoute(path: 'counter', page: CounterRoute.page),
       ],
     ),
   ];

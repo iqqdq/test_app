@@ -10,7 +10,7 @@ class TabBarScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AutoTabsScaffold(
-      routes: const [CounterRoute(), LogoRoute()],
+      routes: const [LogoRoute(), CounterRoute()],
       bottomNavigationBuilder: (_, tabsRouter) {
         return SafeArea(
           child: Row(
@@ -18,7 +18,7 @@ class TabBarScreen extends StatelessWidget {
             children: [
               _CustomTabButton(
                 label: 'Page 1',
-                color: AppColors.grey,
+                color: AppColors.pink,
                 onTap: () => tabsRouter.setActiveIndex(0),
               ),
 
@@ -26,7 +26,7 @@ class TabBarScreen extends StatelessWidget {
 
               _CustomTabButton(
                 label: 'Page 2',
-                color: AppColors.pink,
+                color: AppColors.grey,
                 onTap: () => tabsRouter.setActiveIndex(1),
               ),
             ],
